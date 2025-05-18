@@ -18,9 +18,9 @@ Features
 
 Screenshots
 
-    Main Screen: Shows the currency input fields, "Add Currency" button, and the total value in the base currency
-    Settings Screen: Displays options to change the base currency
-    Currencies List Screen: Shows all available currencies with their codes and names    
+Main Screen: Shows the currency input fields, "Add Currency" button, and the total value in the base currency
+Settings Screen: Displays options to change the base currency
+Currencies List Screen: Shows all available currencies with their codes and names    
 
 Architecture
     The application follows the MVVM (Model-View-ViewModel) architecture pattern using Provider for state management:
@@ -42,15 +42,13 @@ Prerequisites
 ### Installation
 
 1. Clone the repository:
-2. Create a `secrets.dart` file in the `lib/utils` directory:
-3. Install dependencies: (flutter pub get)
-4. Run the application: flutter run
+2. Install dependencies: (flutter pub get)
+3. Run the application: flutter run
 
 ## Dependencies
 
   - **provider**: ^6.0.5 - For state management
   - **http**: ^0.13.5 - For making API requests
-  - **flutter_dotenv** (optional): ^5.0.2 - For environment variables
   - **shared_preferences**: ^2.0.15 - For caching exchange rates
 
 
@@ -62,3 +60,6 @@ The application includes unit tests for the core functionality:
 
 
   To run the tests: flutter test
+  
+
+ ### https://apilayer.com/marketplace/exchangerates_data-api -> reference to make to create api key from the marketplace
