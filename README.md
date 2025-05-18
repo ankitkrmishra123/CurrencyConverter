@@ -62,4 +62,4 @@ The application includes unit tests for the core functionality:
   To run the tests: flutter test
   
 
- ### https://apilayer.com/marketplace/exchangerates_data-api -> reference to make to create api key from the marketplace
+ ### https://apilayer.com/marketplace/exchangerates_data-api -> reference to create api key from the marketplace
